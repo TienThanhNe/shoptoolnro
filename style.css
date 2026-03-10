@@ -217,15 +217,79 @@ background:#f5f7fb;
 
 @media(max-width:800px){
 
+.layout{
+flex-direction:column;
+}
+
+/* SIDEBAR */
+
 .sidebar{
 
 position:fixed;
-z-index:100;
+left:-260px;
+top:0;
+
+height:100%;
+width:240px;
+
+z-index:1000;
+
+border-radius:0;
+
+transition:0.3s;
 
 }
 
+/* khi mở */
+
+.sidebar.show{
+left:0;
+}
+
+/* BUTTON toggle */
+
+.toggle{
+
+position:fixed;
+
+left:10px;
+top:10px;
+
+z-index:1100;
+
+}
+
+/* CONTENT */
+
 .content{
-margin-left:70px;
+
+margin:0;
+
+padding:20px;
+
+}
+
+/* MENU BUTTON */
+
+.sidebar button{
+
+width:100%;
+text-align:left;
+
+padding:12px;
+
+border-radius:12px;
+
+}
+
+/* TABLE */
+
+table{
+width:100%;
+}
+
+.search{
+width:100%;
 }
 
 }
