@@ -3,7 +3,11 @@ function toggleSidebar(){
 
 let s=document.getElementById("sidebar")
 
+if(window.innerWidth<800){
+s.classList.toggle("show")
+}else{
 s.classList.toggle("collapsed")
+}
 
 }
 
@@ -123,5 +127,6 @@ html+=`<img src="${item.value}">`
 document.getElementById("content").innerHTML=html
 
 }
+
 
 loadHome()
