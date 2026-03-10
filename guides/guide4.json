@@ -2,6 +2,11 @@
  { "type":"text","value":"Tải net 4.8 - link tải : https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48" },
  { "type":"image","value":"images/b1net.png" },
  { "type":"text","value":"Cài đặt xong thì restart lại pc/laptop/vps" },
-  { "type":"text","value":"Cài winrar  - link tải : https://www.win-rar.com/download.html?&L=10" },
- { "type":"image","value":"images/b1win.png" }
+ { "type":"text","value":"Cài winrar  - link tải : https://www.win-rar.com/download.html?&L=10" },
+ { "type":"image","value":"images/b1win.png" },
+ { "type":"text","value":"Cài phần mềm đổi MK VPS - Link tải : https://www.fshare.vn/file/C2ZID1SLBIDZ" },
+ { "type":"image","value":"images/b1pass.png" },
+  { "type":"text","value":"Lưu ý: MK mới phải cực khó - Viết hoa, số , kí tự đặc biệt VD: VPStienthanh5414@!00j" },
+   { "type":"text","value":"Ko nên đặt MK dạng Anh123 , KO@113 , 123456" }
+
 ]

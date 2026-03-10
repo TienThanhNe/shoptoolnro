@@ -3,11 +3,7 @@ function toggleSidebar(){
 
 let s=document.getElementById("sidebar")
 
-if(window.innerWidth<800){
-s.classList.toggle("show")
-}else{
-s.classList.toggle("collapsed")
-}
+s.classList.toggle("hide")
 
 }
 
@@ -18,7 +14,7 @@ let html=`
 <div class="home">
 
 <div class="title">
-ShopToolNRO.com.vn
+Click vào ảnh để mua tool!
 </div>
 
 <div class="cloud-frame">
@@ -127,6 +123,5 @@ html+=`<img src="${item.value}">`
 document.getElementById("content").innerHTML=html
 
 }
-
 
 loadHome()
