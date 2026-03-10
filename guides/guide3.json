@@ -1,0 +1,6 @@
+[
+ { "type":"text","value":"Bước 1: Mua capcha tại api.phamgiang.net" },
+ { "type":"image","value":"images/b1muacap.png" },
+ { "type":"text","value":"Bước 2: Điền link và token " },
+ { "type":"image","value":"images/b2muacap.png" }
+]

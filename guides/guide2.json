@@ -1,0 +1,24 @@
+[
+ { "type":"text","value":"Bước 1:" },
+ { "type":"image","value":"images/b1muatool.png" },
+ { "type":"text","value":"Bước 2:" },
+ { "type":"image","value":"images/b2muatool.png" },
+ { "type":"text","value":"Bước 3:" },
+ { "type":"image","value":"images/b3muatool.png" },
+ { "type":"text","value":"Bước 4:" },
+ { "type":"image","value":"images/b4muatool.png" },
+ { "type":"text","value":"Bước 5:" },
+ { "type":"image","value":"images/b5muatool.png" },
+ { "type":"text","value":"Bước 6:" },
+ { "type":"image","value":"images/b6muatool.png" },
+ { "type":"text","value":"Bước 7:" },
+ { "type":"image","value":"images/b7muatool.png" },
+ { "type":"text","value":"Bước 8:" },
+ { "type":"image","value":"images/b8muatool.png" },
+ { "type":"text","value":"Bước 9:" },
+ { "type":"image","value":"images/b9muatool.png" },
+ { "type":"text","value":"Bước 10:" },
+ { "type":"image","value":"images/b10muatool.png" }
+
+ 
+]

@@ -1,0 +1,51 @@
+[{ "id" : 0, "name": "Chiêu đấm Dragon"},
+
+{ "id" : 1, "name": "Chiêu Kamejoko"},
+
+{ "id" : 2, "name": "Chiêu đấm Demon"},
+
+{ "id" : 3, "name": "Chiêu Masenko"},
+
+{ "id" : 4, "name": "Chiêu đấm Galick"},
+
+{ "id" : 5, "name": "Chiêu Antomic"},
+
+{ "id" : 6, "name": "Thái Dương Hạ San"},
+
+{ "id" : 7, "name": "Trị thương"},
+
+{ "id" : 8, "name": "Tái tạo năng lượng"},
+
+{ "id" : 9, "name": "Kaioken"},
+
+{ "id" : 10, "name": "Quả cầu kênh khi"},
+
+{ "id" : 11, "name": "Makankosappo"},
+
+{ "id" : 12, "name": "Đẻ trứng"},
+
+{ "id" : 13, "name": "Biến hình"},
+
+{ "id" : 14, "name": "Tự phát nổ"},
+
+{ "id" : 17, "name": "Liên hoàn"},
+
+{ "id" : 18, "name": "Biến Sôcôla"},
+
+{ "id" : 19, "name": "Khiên năng lượng"},
+
+{ "id" : 20, "name": "Dịch chuyển tức thời"},
+
+{ "id" : 21, "name": "Huýt sáo"},
+
+{ "id" : 22, "name": "Thôi miên"},
+
+{ "id" : 23, "name": "Trói"},
+
+{ "id" : 24, "name": "Super Kamejoko"},
+
+{ "id" : 25, "name": "Cađíc liên hoàn chưởng"},
+
+{ "id" : 26, "name": "Ma phong ba"}
+
+]
