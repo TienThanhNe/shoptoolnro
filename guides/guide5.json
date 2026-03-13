@@ -1,0 +1,12 @@
+[
+ { "type":"text","value":"B1: Mở File Tool bất kì" },
+ { "type":"image","value":"images/b1update.png" },
+ { "type":"text","value":"B2" },
+ { "type":"image","value":"images/b2update.png" },
+  { "type":"text","value":"B3 - Lưu ý tắt all tab game và QLTK xong mới update" },
+ { "type":"image","value":"images/b3update.png" },
+ { "type":"text","value":"B4" },
+ { "type":"image","value":"images/b4update.png" }
+
+
+]
