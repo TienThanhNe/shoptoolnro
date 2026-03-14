@@ -1,0 +1,14 @@
+[
+ { "type":"text","value":"B1: Check xem license hết hạn hay chưa ( ảnh còn 90 ngày )" },
+ { "type":"image","value":"images/b1gh.png" },
+ { "type":"text","value":"B2: Như ảnh là hết hạn cần được gia hạn" },
+ { "type":"image","value":"images/b2gh.png" },
+  { "type":"text","value":"B3: Bấm vào biểu tượng WINDOW, tìm kiếm CMD , mở lên " },
+ { "type":"image","value":"images/b3gh.png" },
+ { "type":"text","value":"B4: Nhập lệnh slmgr.vbs /rearm xong bấm ok" },
+ { "type":"image","value":"images/b4gh.png" },
+ { "type":"text","value":"B5: Restart và mở lại VPS" },
+ { "type":"image","value":"images/b5gh.png" }
+
+
+]
