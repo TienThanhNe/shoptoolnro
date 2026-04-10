@@ -1,6 +1,9 @@
 [
- { "type":"text","value":"Bước 1: Mua capcha tại api.phamgiang.net" },
+ { "type":"text","value":"Bước 1: Mua capcha tại api.shoptoolnro.click" },
  { "type":"image","value":"images/b1muacap.png" },
- { "type":"text","value":"Bước 2: Điền link và token " },
- { "type":"image","value":"images/b2muacap.png" }
+ { "type":"text","value":"Bước 2: Vào token đã mua " },
+ { "type":"image","value":"images/b2muacap.png" },
+ { "type":"text","value":"Bước 3: Copy token dán vào tool, nếu mua gói tháng phải điền ip máy hoặc ip vps để sử dụng, gói lượt không cần điền" },
+ { "type":"image","value":"images/b3muacap.png" }
+
 ]
