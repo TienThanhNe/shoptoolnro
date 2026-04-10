@@ -1,66 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
-
-<meta charset="UTF-8">
-<title>Shoptoolnro.com.vn</title>
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<link rel="stylesheet" href="style.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Trang tài liệu hướng dẫn và bảng ID dành cho người dùng Shoptoolnro.com.vn.">
+  <title>Trung tâm tài liệu | Shoptoolnro.com.vn</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <div class="app-shell">
+    <button class="mobile-menu-btn" id="mobileMenuBtn" type="button" aria-label="Mở menu điều hướng" aria-controls="sidebar" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
 
-<div class="layout">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-inner">
+        <div class="brand-block" role="banner">
+          <div class="brand-badge">Online</div>
+          <h1>Shoptoolnro</h1>
+          <p>Trung tâm tài liệu hướng dẫn và tra cứu nhanh.</p>
+        </div>
 
-<!-- SIDEBAR -->
+        <div class="sidebar-search-wrap">
+          <input id="menuSearch" class="menu-search" type="search" placeholder="Tìm nhanh mục tài liệu..." aria-label="Tìm nhanh mục tài liệu">
+        </div>
 
-<button class="toggle" onclick="toggleSidebar()">☰</button>
+        <nav class="menu" aria-label="Điều hướng tài liệu">
+          <section class="menu-section" data-group="Panel">
+            <h2>Panel</h2>
+            <button data-title="Trang chủ" onclick="loadHome()">Trang chủ</button>
+            <button data-title="Web Captcha" onclick="openCaptchaSite()">Web Captcha</button>
+          </section>
 
-<div class="sidebar" id="sidebar">
+          <section class="menu-section" data-group="Hướng dẫn">
+            <h2>Hướng dẫn</h2>
+            <button data-title="Cách đăng nhập VPS" onclick="loadGuide('guide1', 'Cách đăng nhập VPS')">Cách đăng nhập VPS</button>
+            <button data-title="Cách Mua Tool" onclick="loadGuide('guide2', 'Cách Mua Tool')">Cách Mua Tool</button>
+            <button data-title="Cách điền Captcha" onclick="loadGuide('guide3', 'Cách điền Captcha')">Cách điền Captcha</button>
+            <button data-title="Cài phần mềm" onclick="loadGuide('guide4', 'Cài phần mềm')">Cài phần mềm</button>
+            <button data-title="Cách Update Tool" onclick="loadGuide('guide5', 'Cách Update Tool')">Cách Update Tool</button>
+            <button data-title="Cách Reset License" onclick="loadGuide('guide6', 'Cách Reset License')">Cách Reset License</button>
+          </section>
 
-<div class="logo"></div>
+          <section class="menu-section" data-group="Bảng ID">
+            <h2>Bảng ID</h2>
+            <button data-title="Bảng ID Item" onclick="loadTable('table1', 'Bảng ID Item')">Bảng ID Item</button>
+            <button data-title="Bảng ID Map" onclick="loadTable('table2', 'Bảng ID Map')">Bảng ID Map</button>
+            <button data-title="Bảng ID Mob" onclick="loadTable('table3', 'Bảng ID Mob')">Bảng ID Mob</button>
+            <button data-title="Bảng ID NPC" onclick="loadTable('table4', 'Bảng ID NPC')">Bảng ID NPC</button>
+            <button data-title="Bảng ID Skill" onclick="loadTable('table5', 'Bảng ID Skill')">Bảng ID Skill</button>
+            <button data-title="Bảng ID Bùa" onclick="loadTable('table6', 'Bảng ID Bùa')">Bảng ID Bùa</button>
+          </section>
+        </nav>
+      </div>
+    </aside>
 
-<div class="menu">
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
 
-<h4>Panel</h4>
+    <main class="main-panel">
+      <header class="topbar">
+        <div>
+          <div class="eyebrow" id="pageEyebrow">Tài liệu</div>
+          <div class="breadcrumb" id="breadcrumb">Trang chủ</div>
+        </div>
+        <a class="topbar-link" href="https://shoptoolnro.com.vn" target="_blank" rel="noopener noreferrer">Mở website</a>
+      </header>
 
-<button onclick="loadHome()">Trang chủ</button>
+      <section class="content-wrap">
+        <div class="content-card" id="content"></div>
+      </section>
+    </main>
+  </div>
 
-<h4>Hướng dẫn</h4>
-
-<button onclick="loadGuide('guide1')">Cách đăng nhập VPS</button>
-<button onclick="loadGuide('guide2')">Cách Mua Tool</button>
-<button onclick="loadGuide('guide3')">Cách điền Captcha</button>
-<button onclick="loadGuide('guide4')">Cài phần mềm</button>
-<button onclick="loadGuide('guide5')">Cách Update Tool</button>
-<button onclick="loadGuide('guide6')">Cách Reset License</button>
-
-
-<h4>Bảng ID</h4>
-
-<button onclick="loadTable('table1')">Bảng ID Item</button>
-<button onclick="loadTable('table2')">Bảng ID Map</button>
-<button onclick="loadTable('table3')">Bảng ID Mob</button>
-<button onclick="loadTable('table4')">Bảng ID NPC</button>
-<button onclick="loadTable('table5')">Bảng ID Skill</button>
-<button onclick="loadTable('table6')">Bảng ID Bùa</button>
-
-</div>
-
-</div>
-
-<!-- CONTENT -->
-
-<div class="content" id="content">
-
-</div>
-
-</div>
-
-<script src="script.js"></script>
-
+  <script src="script.js"></script>
 </body>
 </html>
