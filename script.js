@@ -96,7 +96,7 @@ function loadHome() {
         <div class="hero-actions">
           <a class="primary-btn" href="https://shoptoolnro.com.vn" target="_blank" rel="noopener noreferrer">Mở web tool</a>
           <a class="secondary-btn" href="https://api.shoptoolnro.click" target="_blank" rel="noopener noreferrer">Mở web Captcha</a>
-          <a class="secondary-btn" href="#" onclick="loadGuide('guide1', 'Cách đăng nhập VPS'); return false;">Xem hướng dẫn đầu tiên</a>
+          <a class="secondary-btn" href="#" onclick="loadGuide('guide1', 'Cách đăng nhập VPS'); return false;">Xem hướng dẫn login VPS</a>
         </div>
       </div>
       <div class="hero-preview">
